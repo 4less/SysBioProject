@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="escher-svg"
+    xmlns="http://www.w3.org/2000/svg" width="2970" height="3033">
+    <defs>
+        <style type="text/css">svg.escher-svg .gene-label,svg.escher-svg .label{text-rendering:optimizelegibility;cursor:default}svg.escher-svg #mouse-node{fill:none}svg.escher-svg #canvas{stroke:#ccc;stroke-width:7px;fill:#fff}svg.escher-svg .resize-rect{fill:#000;opacity:0;stroke:none}svg.escher-svg .label{font-family:sans-serif;font-style:italic;font-weight:700;font-size:8px;fill:#000;stroke:none}svg.escher-svg .reaction-label{font-size:30px;fill:#202078;text-rendering:optimizelegibility}svg.escher-svg .node-label{font-size:20px}svg.escher-svg .gene-label{font-size:18px;fill:#202078}svg.escher-svg .text-label .label,svg.escher-svg .text-label-input{font-size:50px}svg.escher-svg .node-circle{stroke-width:2px}svg.escher-svg .midmarker-circle,svg.escher-svg .multimarker-circle{fill:#fff;fill-opacity:.2;stroke:#323232}svg.escher-svg g.selected .node-circle{stroke-width:6px;stroke:#1471c7}svg.escher-svg g.selected .label{fill:#1471c7}svg.escher-svg .metabolite-circle{stroke:#a24510;fill:#e0865b}svg.escher-svg g.selected .metabolite-circle{stroke:#050200}svg.escher-svg .segment{stroke:#334E75;stroke-width:10px;fill:none}svg.escher-svg .arrowhead{fill:#334E75}svg.escher-svg .stoichiometry-label-rect{fill:#fff;opacity:.5}svg.escher-svg .stoichiometry-label{fill:#334E75;font-size:17px}svg.escher-svg .membrane{fill:none;stroke:#fb0}svg.escher-svg .brush .extent{fill-opacity:.1;fill:#000;stroke:#fff;shape-rendering:crispEdges}svg.escher-svg #brush-container .background{fill:none}svg.escher-svg .bezier-circle{fill:#fff}svg.escher-svg .bezier-circle.b1{stroke:red}svg.escher-svg .bezier-circle.b2{stroke:#00f}svg.escher-svg .connect-line{stroke:#c8c8c8}svg.escher-svg .direction-arrow{stroke:#000;stroke-width:1px;fill:#fff;opacity:.3}svg.escher-svg .start-reaction-cursor{cursor:pointer}svg.escher-svg .start-reaction-target{stroke:#646464;fill:none;opacity:.5}svg.escher-svg .rotation-center-line{stroke:red;stroke-width:5px}svg.escher-svg .highlight{fill:#D97000;text-decoration:underline}svg.escher-svg .cursor-grab{cursor:grab;cursor:-webkit-grab}svg.escher-svg .cursor-grabbing{cursor:grabbing;cursor:-webkit-grabbing}svg.escher-svg .edit-text-cursor{cursor:text}</style>
+    </defs>
+    <g class="zoom-g cursor-grab" transform="translate(990,1011) scale(1)">
+        <g class="canvas-group">
+            <rect id="mouse-node" width="0px" height="0px" pointer-events="all"/>
+            <rect id="canvas" width="2970" height="3033" transform="translate(-990,-1011)" style="visibility: hidden;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-1040,-961)" height="2933" id="dragleft" width="100" cursor="ew-resize" style="pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(1930,-961)" id="dragright" height="2933" width="100" cursor="ew-resize" style="pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-940,-1061)" height="100" id="dragtop" width="2870" cursor="ns-resize" style="pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-940,1972)" id="dragbottom" height="100" width="2870" cursor="ns-resize" style="pointer-events: auto;"/>
+        </g>
+        <g id="brush-container"/>
+        <g id="reactions">
+            <g id="r2" class="reaction">
+                <g class="reaction-label-group" transform="translate(677.982163334537,183.67803967722375)">
+                    <text class="reaction-label label" visibility="visible">Pyruvate Oxidase (2)</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s16">
+                    <path class="segment" d="M707.9848589394112,224.0063945594533 727.982163334537,223.67803967722375"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s17">
+                    <path class="segment" d="M747.9794677296627,223.3496847949942 727.982163334537,223.67803967722375"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s18">
+                    <path class="segment" d="M707.9848589394112,224.0063945594533 C671.9897110281848,224.59743334746648 652.6474992264743,203.9122008707025 635.0716344310625,194.74135813111667"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels">
+                        <text class="stoichiometry-label" text-anchor="middle" transform="translate(634.0279214337978,217.41973779582992)">1.5</text>
+                    </g>
+                </g>
+                <g class="segment-group" id="s19">
+                    <path class="segment" d="M707.9848589394112,224.0063945594533 C671.9897110281848,224.59743334746648 654.0265897318384,287.9008793302307 630.1511540286053,328.2548745310813"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s20">
+                    <path class="segment" d="M707.9848589394112,224.0063945594533 C671.9897110281848,224.59743334746648 653.3370444791564,245.90654010046657 636.0717430750674,255.6494732977526"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s21">
+                    <path class="segment" d="M707.9848589394112,224.0063945594533 C675.98917190721,224.53176237102056 427.5528605606426,221.27977680817088 405.05589311612613,221.64917605067913"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s22">
+                    <path class="segment" d="M747.9794677296627,223.3496847949942 C783.974615640889,222.75864600698102 802.6272821899175,201.44953925398093 808.5708548969853,198.0955386209853"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(808.5708548969853,198.0955386209853)rotate(240.56365167163386)"/>
+                    </g>
+                    <g class="stoichiometry-labels">
+                        <text class="stoichiometry-label" text-anchor="middle" transform="translate(807.313468257038,189.2903019478208)">2</text>
+                    </g>
+                </g>
+                <g class="segment-group" id="s23">
+                    <path class="segment" d="M747.9794677296627,223.3496847949942 C779.9751547618639,222.82431698342694 1029.4120154248376,220.0793085277219 1038.9107350125223,219.92333995866287"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1038.9107350125223,219.92333995866287)rotate(269.05929028987885)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s24">
+                    <path class="segment" d="M707.9848589394112,224.0063945594533 C671.9897110281848,224.59743334746648 654.7161349845205,329.89521855999476 627.8856037315242,406.5791885042971"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s25">
+                    <path class="segment" d="M747.9794677296627,223.3496847949942 C783.974615640889,222.75864600698102 803.3168274425996,243.443878483745 809.3673114657968,246.60093721860756"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(809.3673114657968,246.60093721860756)rotate(297.5549289081239)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r3" class="reaction">
+                <g class="reaction-label-group" transform="translate(402.5076310519077,502.0207501670893)">
+                    <text class="reaction-label label" visibility="visible">Pyruvate formate lyase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s26">
+                    <path class="segment" d="M372.5815362671221,472.02088671707634 372.5076310519077,492.0207501670893"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s27">
+                    <path class="segment" d="M372.43372583669327,512.0206136171023 372.5076310519077,492.0207501670893"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s28">
+                    <path class="segment" d="M372.5815362671221,472.02088671707634 C372.69978461146513,440.0211051970557 374.86593533349975,274.64134993030746 374.90104031072656,265.1414147915513"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(374.90104031072656,265.1414147915513)rotate(180.21172332763666)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s29">
+                    <path class="segment" d="M372.5815362671221,472.02088671707634 C372.71456565450796,436.02113250705315 393.78463223147526,417.0988627055159 397.0627420963226,411.11309855343586"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(397.0627420963226,411.11309855343586)rotate(208.7073619458817)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s30">
+                    <path class="segment" d="M372.43372583669327,512.0206136171023 C372.3154774923503,544.020395137123 370.14932677031567,715.3941079234025 370.1142217930888,724.8940430621586"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(370.1142217930888,724.8940430621586)rotate(360.2117233276367)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s31">
+                    <path class="segment" d="M372.43372583669327,512.0206136171023 C372.3006964493074,548.0203678271256 393.23034311736734,567.097838580613 396.46412584059453,573.107666038144"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(396.46412584059453,573.107666038144)rotate(331.71608470939174)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r4" class="reaction">
+                <g class="reaction-label-group" transform="translate(681.7378968589372,735.1810271995913)">
+                    <text class="reaction-label label" visibility="visible">Acetyl-CoA synthetase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s32">
+                    <path class="segment" d="M751.7371534330576,775.3534698929744 731.7378968589372,775.1810271995913"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s33">
+                    <path class="segment" d="M711.7386402848167,775.0085845062082 731.7378968589372,775.1810271995913"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s34">
+                    <path class="segment" d="M751.7371534330576,775.3534698929744 C787.7358152664743,775.6638667410641 806.916173839941,754.8284678969517 824.420007126607,745.5208795877593"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s35">
+                    <path class="segment" d="M711.7386402848167,775.0085845062082 C675.7399784514,774.6981876581185 656.921749534038,753.5351476965781 650.952209125453,750.2275860447554"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(650.952209125453,750.2275860447554)rotate(118.98965666629303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s36">
+                    <path class="segment" d="M751.7371534330576,775.3534698929744 C787.7358152664743,775.6638667410641 806.5540441838365,796.8269067026046 823.8947783647351,806.4349407329472"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s37">
+                    <path class="segment" d="M711.7386402848167,775.0085845062082 C675.7399784514,774.6981876581185 656.5596198779333,795.533586502231 650.5339326711606,798.7377198416025"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(650.5339326711606,798.7377198416025)rotate(421.9983794298029)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s38">
+                    <path class="segment" d="M711.7386402848167,775.0085845062082 C679.7398297662241,774.7326761967952 422.453374087444,768.3464115498172 412.9537272147368,768.2645012704602"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(412.9537272147368,768.2645012704602)rotate(90.49401804804796)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s39">
+                    <path class="segment" d="M751.7371534330576,775.3534698929744 C783.7359639516503,775.6293782023876 1023.0404250015242,768.029680935303 1045.5395886474098,768.223678965359"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r5" class="reaction">
+                <g class="reaction-label-group" transform="translate(1107.7025097661062,488.63787708989287)">
+                    <text class="reaction-label label" visibility="visible">Acetate kinase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s40">
+                    <path class="segment" d="M1077.4139715984375,498.63579562472535 1077.7025097661062,478.63787708989287"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s41">
+                    <path class="segment" d="M1077.991047933775,458.6399585550603 1077.7025097661062,478.63787708989287"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s42">
+                    <path class="segment" d="M1077.4139715984375,498.63579562472535 C1076.9523105301673,530.6324652804574 1076.2958861987208,715.9878068514982 1076.1588305690782,725.4868181555437"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1076.1588305690782,725.4868181555437)rotate(360.82662963867176)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s43">
+                    <path class="segment" d="M1077.991047933775,458.6399585550603 C1078.452709002045,426.64328889932824 1082.8706033460955,261.0358730461836 1082.897621756039,262.20591708436234"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1082.897621756039,262.20591708436234)rotate(178.6771730446955)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s44">
+                    <path class="segment" d="M1077.991047933775,458.6399585550603 C1078.5104166355788,422.6437051923617 1043.8006294489148,373.37268576993733 1040.6315300253718,367.3284996697222"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1040.6315300253718,367.3284996697222)rotate(152.33099102042692)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s45">
+                    <path class="segment" d="M1077.4139715984375,498.63579562472535 C1076.8946028966336,534.6320489874239 1043.6347011015555,589.2911262948533 1040.2925411952851,595.2413652758736"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1040.2925411952851,595.2413652758736)rotate(389.3222682569169)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r6" class="reaction">
+                <g class="reaction-label-group" transform="translate(598.6194774631525,998.1145662855165)">
+                    <text class="reaction-label label" visibility="visible">Acetaldehyde dehydrogenase (acetylating)</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s46">
+                    <path class="segment" d="M599.5036446542933,1016.0120545874918 568.6194774631525,988.1145662855165"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s47">
+                    <path class="segment" d="M521.7513014829492,942.2349612843225 568.6194774631525,988.1145662855165"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s48">
+                    <path class="segment" d="M599.5036446542933,1016.0120545874918 C615.5346963795968,1048.2456609724536 512.9284101401686,1075.886375749062 529.1555937205454,1087.274698404728"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s49">
+                    <path class="segment" d="M599.5036446542933,1016.0120545874918 C613.7534684101186,1044.6641491519022 713.9349805082452,1119.3699105637984 723.9543878365598,1139.5159145543994"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s50">
+                    <path class="segment" d="M599.5036446542933,1016.0120545874918 C615.5346963795968,1048.2456609724536 585.2125506728174,1114.569371967645 584.5024734227604,1134.3812666311992"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s51">
+                    <path class="segment" d="M521.7513014829492,942.2349612843225 C505.7202497576459,910.0013548993608 334.2442387261439,915.6057444901069 334.4886825191929,908.7855081303919"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(334.4886825191929,908.7855081303919)rotate(182.05265689827428)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s52">
+                    <path class="segment" d="M521.7513014829492,942.2349612843225 C507.501477727124,913.5828667199121 393.3339426797787,814.9010921244223 389.10352625226807,806.395001550613"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(389.10352625226807,806.395001550613)rotate(153.5570182800293)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s53">
+                    <path class="segment" d="M521.7513014829492,942.2349612843225 C505.7202497576459,910.0013548993608 400.53439122168334,994.2487016461899 394.9481901364208,990.3282763879625"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(394.9481901364208,990.3282763879625)rotate(125.06137966178422)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r7" class="reaction">
+                <g class="reaction-label-group" transform="translate(940.0083909896795,995.55874620651)">
+                    <text class="reaction-label label" visibility="visible">Aldehyde dehydrogenase (acetaldehyde, NAD)</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s54">
+                    <path class="segment" d="M898.5937273178872,1001.9814577140494 910.0083909896795,985.55874620651"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s55">
+                    <path class="segment" d="M921.4230546614717,969.1360346989707 910.0083909896795,985.55874620651"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s56">
+                    <path class="segment" d="M898.5937273178872,1001.9814577140494 C878.047332708661,1031.54233842762 956.3752888541559,1083.105324398758 954.1978776728754,1102.8100005038973"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s57">
+                    <path class="segment" d="M898.5937273178872,1001.9814577140494 C880.3302654430195,1028.2577961261122 778.4378943592233,1117.567584922952 756.6435596447068,1143.434878273803"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s58">
+                    <path class="segment" d="M921.4230546614717,969.1360346989707 C941.9694492706979,939.5751539853999 1022.0054079941606,903.9908962953382 1028.1021640475064,900.9241484419393"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1028.1021640475064,900.9241484419393)rotate(243.2970073316237)"/>
+                    </g>
+                    <g class="stoichiometry-labels">
+                        <text class="stoichiometry-label" text-anchor="middle" transform="translate(1027.5999274929802,892.0769314654365)">2</text>
+                    </g>
+                </g>
+                <g class="segment-group" id="s59">
+                    <path class="segment" d="M898.5937273178872,1001.9814577140494 C878.047332708661,1031.54233842762 796.0135712508232,1033.1606537348694 778.3032922593594,1042.0691551748046"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s60">
+                    <path class="segment" d="M921.4230546614717,969.1360346989707 C939.6865165363395,942.8596962869077 1045.5749813701357,811.5919607127245 1050.996946614237,803.7911727466433"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1050.996946614237,803.7911727466433)rotate(214.80136871337885)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s61">
+                    <path class="segment" d="M921.4230546614717,969.1360346989707 C941.9694492706979,939.5751539853999 923.5816176369217,890.0102148892618 924.3311905152764,883.2268884729399"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(924.3311905152764,883.2268884729399)rotate(186.30573009513407)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r8" class="reaction">
+                <g class="reaction-label-group" transform="translate(404.18071889782277,-19.753786147462648)">
+                    <text class="reaction-label label" visibility="visible">D-lactate dehydrogenase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s62">
+                    <path class="segment" d="M374.06348988107413,-49.75344257845245 374.18071889782277,-29.753786147462648"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s63">
+                    <path class="segment" d="M374.2979479145714,-9.754129716472846 374.18071889782277,-29.753786147462648"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s64">
+                    <path class="segment" d="M374.2979479145714,-9.754129716472846 C374.4855143413692,22.24532057311086 374.75221035447237,169.64261024267518 374.807894137428,179.14244704739534"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(374.807894137428,179.14244704739534)rotate(359.66416168212896)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s65">
+                    <path class="segment" d="M374.2979479145714,-9.754129716472846 C374.5089601447189,26.245251859308837 353.62068845809085,45.36801593633521 350.3999318916953,51.38483435725803"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(350.3999318916953,51.38483435725803)rotate(388.1598003003739)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s66">
+                    <path class="segment" d="M374.06348988107413,-49.75344257845245 C373.87592345427635,-81.75289286803616 375.6072132810169,-201.1781671567411 375.5515294980613,-210.67800396146126"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(375.5515294980613,-210.67800396146126)rotate(179.66416168212893)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s67">
+                    <path class="segment" d="M374.2979479145714,-9.754129716472846 C374.5089601447189,26.245251859308837 395.6199669631694,45.12183500116308 398.9110355801061,51.10048402322073"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(398.9110355801061,51.10048402322073)rotate(331.16852306388387)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s68">
+                    <path class="segment" d="M374.06348988107413,-49.75344257845245 C373.85247765092663,-85.75282415423413 352.7414708324761,-104.6294072960884 349.45040221553944,-110.60805631814604"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(349.45040221553944,-110.60805631814604)rotate(151.16852306388387)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r9" class="reaction">
+                <g class="reaction-label-group" transform="translate(47.18791184840029,182.28054088481778)">
+                    <text class="reaction-label label" visibility="visible">Malic enzyme (NAD)</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s69">
+                    <path class="segment" d="M77.18792041294853,222.29904985175182 97.18791184840029,222.28054088481778"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s70">
+                    <path class="segment" d="M117.187903283852,222.26203191788375 97.18791184840029,222.28054088481778"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s71">
+                    <path class="segment" d="M117.187903283852,222.26203191788375 C149.1878895805748,222.2324175707893 322.5599590053767,222.19029441222528 332.0599549372163,222.1815026529316"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(332.0599549372163,222.1815026529316)rotate(269.9469757080078)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s72">
+                    <path class="segment" d="M117.187903283852,222.26203191788375 C153.18788786766515,222.22871577740247 172.20731414662504,243.21112326603946 178.2081615639066,246.46153970779602"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(178.2081615639066,246.46153970779602)rotate(298.44261432625274)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s73">
+                    <path class="segment" d="M117.187903283852,222.26203191788375 C153.18788786766515,222.22871577740247 172.16844531606353,201.21114125159082 178.16326627196995,197.94962343361678"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(178.16326627196995,197.94962343361678)rotate(241.4513370897629)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s74">
+                    <path class="segment" d="M77.18792041294853,222.29904985175182 C41.18793582913537,222.3323659922331 22.20737838073694,243.34994051804478 4.793207516099944,252.82422323274355"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s75">
+                    <path class="segment" d="M77.18792041294853,222.29904985175182 C45.18793411622573,222.3286641988463 -96.21611010105664,220.37275574119934 -118.71610046593977,220.39357832900012"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r11" class="reaction">
+                <g class="reaction-label-group" transform="translate(650.2354919305217,460.8437508240605)">
+                    <text class="reaction-label label" visibility="visible">Phosphotransacetylase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s82">
+                    <path class="segment" d="M685.2357544184712,514.0728050067898 700.2354919305217,500.8437508240605"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s83">
+                    <path class="segment" d="M715.2352294425721,487.6146966413312 700.2354919305217,500.8437508240605"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s84">
+                    <path class="segment" d="M715.2352294425721,487.6146966413312 C739.2348094618527,466.4482099489644 1035.0974630341893,264.52397142446614 1051.008028388483,249.12357842766133"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1051.008028388483,249.12357842766133)rotate(225.9334794615026)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s85">
+                    <path class="segment" d="M685.2357544184712,514.0728050067898 C658.2362268967804,537.8851025357026 572.1539527669042,558.6789928052361 565.501984717455,560.2043445153153"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(565.501984717455,560.2043445153153)rotate(437.08487964607696)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s86">
+                    <path class="segment" d="M715.2352294425721,487.6146966413312 C742.2347569642628,463.80239911241847 742.594000708845,435.4850732511727 744.9386303559565,429.07585422010334"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(744.9386303559565,429.07585422010334)rotate(200.093602409587)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s87">
+                    <path class="segment" d="M685.2357544184712,514.0728050067898 C661.2361743991905,535.2392916991566 409.3296365495102,733.1674822500221 402.2047612312863,739.4512829868185"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(402.2047612312863,739.4512829868185)rotate(408.58924102783203)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r12" class="reaction">
+                <g class="reaction-label-group" transform="translate(181.11682739962328,702.3664914384296)">
+                    <text class="reaction-label label" visibility="visible">2-isopropylmalate synthase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s88">
+                    <path class="segment" d="M170.17208698575192,698.4407882788264 151.11682739962328,692.3664914384296"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s89">
+                    <path class="segment" d="M132.06156781349472,686.2921945980329 151.11682739962328,692.3664914384296"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s90">
+                    <path class="segment" d="M170.17208698575192,698.4407882788264 C204.4715542407834,709.3745225915405 292.120090449979,765.1231588936337 305.8474300441956,779.4261490539416"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s91">
+                    <path class="segment" d="M170.17208698575192,698.4407882788264 C200.6605023235577,708.1596632234612 319.93526916679025,751.948720273645 341.37243620118494,758.7823042190913"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s92">
+                    <path class="segment" d="M170.17208698575192,698.4407882788264 C204.4715542407834,709.3745225915405 304.87611381481213,725.1071137627637 324.3486222149462,721.3873292975668"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s93">
+                    <path class="segment" d="M132.06156781349472,686.2921945980329 C97.7621005584632,675.3584602853189 73.28159226922446,689.595900852377 66.5781894871696,690.8764350814686"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(66.5781894871696,690.8764350814686)rotate(439.18522380851294)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s94">
+                    <path class="segment" d="M132.06156781349472,686.2921945980329 C97.7621005584632,675.3584602853189 86.0376156340576,649.5798557215069 81.31198478387653,644.6560574073847"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(81.31198478387653,644.6560574073847)rotate(136.17650104500285)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s95">
+                    <path class="segment" d="M132.06156781349472,686.2921945980329 C101.57315247568897,676.5733196533981 -101.61767195421362,562.8542088922768 -110.66892025762465,559.9689178930884"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-110.66892025762465,559.9689178930884)rotate(107.68086242675773)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r13" class="reaction">
+                <g class="reaction-label-group" transform="translate(-11.849658803412012,925.1674193215694)">
+                    <text class="reaction-label label" visibility="visible">Acetyl-CoA carboxylase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s96">
+                    <path class="segment" d="M201.871497228542,896.2402154910892 150.03841797881455,941.1914061379756"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s97">
+                    <path class="segment" d="M94.20935179061047,984.1446109450184 150.03841797881455,941.1914061379756"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s98">
+                    <path class="segment" d="M94.20935179061047,984.1446109450184 C65.62207928792145,998.5240355112867 -76.92352247508768,1094.8937910469183 -85.41036899932355,1099.1626827150292"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-85.41036899932355,1099.1626827150292)rotate(423.297561645508)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s99">
+                    <path class="segment" d="M94.20935179061047,984.1446109450184 C62.0486702250854,1000.3214635820702 18.547448931581584,1067.579666470838 14.65236018284909,1073.1835633658418"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(14.65236018284909,1073.1835633658418)rotate(394.80192302726283)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s100">
+                    <path class="segment" d="M201.871497228542,896.2402154910892 C234.03217879406714,880.0633628540372 246.45635151014227,852.3239409648926 266.27125852445363,852.9442956013731"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s101">
+                    <path class="segment" d="M201.871497228542,896.2402154910892 C234.03217879406714,880.0633628540372 219.59135237238382,814.8031458051132 230.90607578151634,798.5245582117243"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s102">
+                    <path class="segment" d="M94.20935179061047,984.1446109450184 C62.0486702250854,1000.3214635820702 -28.297565364830177,1020.0688810766837 -35.11883872501931,1019.8553242554159"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-35.11883872501931,1019.8553242554159)rotate(91.79320026375264)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s103">
+                    <path class="segment" d="M201.871497228542,896.2402154910892 C230.45876973123103,881.8607909248208 323.05433163065373,791.4849929087205 343.1547576091069,781.3744600105631"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s104">
+                    <path class="segment" d="M94.20935179061047,984.1446109450184 C62.0486702250854,1000.3214635820702 -47.17056010805743,982.5480859169043 -75.9884572972488,964.7176893023908"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-75.9884572972488,964.7176893023908)rotate(121.74617669719424)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+        </g>
+        <g id="nodes">
+            <g class="node" id="n100">
+                <circle class="node-circle midmarker-circle" transform="translate(150.03841797881455,941.1914061379756)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n99">
+                <circle class="node-circle multimarker-circle" transform="translate(201.871497228542,896.2402154910892)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n103">
+                <circle class="node-circle metabolite-circle" transform="translate(-4.182097032012678,1100.2808551386656)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-54.18209703201268,1060.2808551386656)">ADP</text>
+            </g>
+            <g class="node" id="n101">
+                <circle class="node-circle multimarker-circle" transform="translate(94.20935179061047,984.1446109450184)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n102">
+                <circle class="node-circle metabolite-circle" transform="translate(-123.82451642481192,1118.4850344759523)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(-173.82451642481192,1078.4850344759523)">Malonyl-CoA</text>
+            </g>
+            <g class="node" id="n98">
+                <circle class="node-circle metabolite-circle" transform="translate(-151.63772836780117,546.9091796862355)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(-121.63772836780117,556.9091796862355)">3-Carboxy-3-hydroxy-4-methylpentanoate</text>
+            </g>
+            <g class="node" id="n105">
+                <circle class="node-circle metabolite-circle" transform="translate(242.32089833597803,782.1019571372857)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(192.32089833597803,742.1019571372857)">Bicarbonate</text>
+            </g>
+            <g class="node" id="n104">
+                <circle class="node-circle metabolite-circle" transform="translate(286.2614641461802,853.5701383940082)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(236.26146414618017,813.5701383940082)">ATP</text>
+            </g>
+            <g class="node" id="n89">
+                <circle class="node-circle metabolite-circle" transform="translate(533.3368106472233,567.5800869885645)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(483.3368106472232,527.5800869885645)">Phosphate</text>
+            </g>
+            <g class="node" id="n86">
+                <circle class="node-circle midmarker-circle" transform="translate(700.2354919305217,500.8437508240605)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n77">
+                <circle class="node-circle metabolite-circle" transform="translate(-12.775023112716326,262.3823230738585)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-62.775023112716326,222.38232307385852)">Nicotinamide adenine dinucleotide</text>
+            </g>
+            <g class="node" id="n68">
+                <circle class="node-circle metabolite-circle" transform="translate(334.8261656279606,80.47878225647858)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(364.8261656279606,90.47878225647858)">Nicotinamide adenine dinucleotide - reduced</text>
+            </g>
+            <g class="node" id="n75">
+                <circle class="node-circle metabolite-circle" transform="translate(207.22488267725294,262.17872443758404)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(157.22488267725294,222.17872443758404)">CO2</text>
+            </g>
+            <g class="node" id="n78">
+                <circle class="node-circle metabolite-circle" transform="translate(-148.7160876191174,220.4213417794012)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(-198.7160876191174,180.4213417794012)">L-Malate</text>
+            </g>
+            <g class="node" id="n69">
+                <circle class="node-circle metabolite-circle" transform="translate(375.2994871120518,-253.67726528808936)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(405.2994871120518,-243.67726528808936)">D-Lactate</text>
+            </g>
+            <g class="node" id="n63">
+                <circle class="node-circle metabolite-circle" transform="translate(760.4363338930243,1051.0564683848606)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(790.4363338930243,1061.0564683848606)">Nicotinamide adenine dinucleotide</text>
+            </g>
+            <g class="node" id="n60">
+                <circle class="node-circle metabolite-circle" transform="translate(952.0012033606818,1122.6890000251547)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(982.0012033606818,1132.6890000251547)">H2O</text>
+            </g>
+            <g class="node" id="n62">
+                <circle class="node-circle metabolite-circle" transform="translate(1057.5826453519594,886.0950816453469)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1087.5826453519594,896.0950816453469)">H+</text>
+            </g>
+            <g class="node" id="n64">
+                <circle class="node-circle metabolite-circle" transform="translate(927.9557031303959,850.4265392628653)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(957.9557031303959,860.4265392628653)">Nicotinamide adenine dinucleotide - reduced</text>
+            </g>
+            <g class="node" id="n57">
+                <circle class="node-circle multimarker-circle" transform="translate(898.5937273178872,1001.9814577140494)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n56">
+                <circle class="node-circle metabolite-circle" transform="translate(367.93646534113077,971.3713060713874)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(397.93646534113077,981.3713060713874)">Nicotinamide adenine dinucleotide - reduced</text>
+            </g>
+            <g class="node" id="n55">
+                <circle class="node-circle metabolite-circle" transform="translate(335.67067514082873,875.8066832052616)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(365.67067514082873,885.8066832052616)">H+</text>
+            </g>
+            <g class="node" id="n54">
+                <circle class="node-circle metabolite-circle" transform="translate(583.7861142581326,1154.3684332524904)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(613.7861142581326,1164.3684332524904)">Coenzyme A</text>
+            </g>
+            <g class="node" id="n52">
+                <circle class="node-circle metabolite-circle" transform="translate(545.5263360207211,1098.7637713238646)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(575.5263360207211,1108.7637713238646)">Nicotinamide adenine dinucleotide</text>
+            </g>
+            <g class="node" id="n49">
+                <circle class="node-circle multimarker-circle" transform="translate(599.5036446542933,1016.0120545874918)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n50">
+                <circle class="node-circle midmarker-circle" transform="translate(568.6194774631525,988.1145662855165)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n51">
+                <circle class="node-circle multimarker-circle" transform="translate(521.7513014829492,942.2349612843225)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n47">
+                <circle class="node-circle metabolite-circle" transform="translate(1025.3075486342443,338.10221707469515)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1055.3075486342443,348.1022170746951)">ADP</text>
+            </g>
+            <g class="node" id="n44">
+                <circle class="node-circle midmarker-circle" transform="translate(1077.7025097661062,478.63787708989287)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n48">
+                <circle class="node-circle metabolite-circle" transform="translate(1024.1317367000443,624.0133724715248)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1054.1317367000443,634.0133724715248)">ATP</text>
+            </g>
+            <g class="node" id="n42">
+                <circle class="node-circle metabolite-circle" transform="translate(1075.5384735085904,768.4823430054337)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(1025.5384735085904,728.4823430054337)">Acetate</text>
+            </g>
+            <g class="node" id="n33">
+                <circle class="node-circle metabolite-circle" transform="translate(369.95532558037786,767.8937494796864)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(399.95532558037786,777.8937494796864)">Acetyl-CoA</text>
+            </g>
+            <g class="node" id="n26">
+                <circle class="node-circle metabolite-circle" transform="translate(1081.9049394620426,219.21737696186938)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(1031.9049394620426,179.21737696186938)">Acetyl phosphate</text>
+            </g>
+            <g class="node" id="n18">
+                <circle class="node-circle metabolite-circle" transform="translate(617.3402793968862,185.4893827392347)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(567.3402793968862,145.4893827392347)">O2</text>
+            </g>
+            <g class="node" id="n19">
+                <circle class="node-circle multimarker-circle" transform="translate(707.9848589394112,224.0063945594533)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n20">
+                <circle class="node-circle midmarker-circle" transform="translate(727.982163334537,223.67803967722375)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n21">
+                <circle class="node-circle multimarker-circle" transform="translate(747.9794677296627,223.3496847949942)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n22">
+                <circle class="node-circle metabolite-circle" transform="translate(619.9671184547226,345.4678179002408)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(569.9671184547226,305.4678179002408)">H2O</text>
+            </g>
+            <g class="node" id="n23">
+                <circle class="node-circle metabolite-circle" transform="translate(618.6536989258043,265.4786003197378)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(568.6536989258043,225.47860031973778)">Phosphate</text>
+            </g>
+            <g class="node" id="n24">
+                <circle class="node-circle metabolite-circle" transform="translate(375.0599365234375,222.14170837402344)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(405.0599365234375,232.14170837402344)">Pyruvate</text>
+            </g>
+            <g class="node" id="n25">
+                <circle class="node-circle metabolite-circle" transform="translate(837.3106277432696,181.87747903470975)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(787.3106277432696,141.87747903470975)">Hydrogen peroxide</text>
+            </g>
+            <g class="node" id="n27">
+                <circle class="node-circle metabolite-circle" transform="translate(621.2805379836407,425.4570354807438)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(571.2805379836407,385.4570354807438)">H+</text>
+            </g>
+            <g class="node" id="n28">
+                <circle class="node-circle metabolite-circle" transform="translate(838.6240472721877,261.8666966152128)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(788.6240472721877,221.8666966152128)">CO2</text>
+            </g>
+            <g class="node" id="n29">
+                <circle class="node-circle multimarker-circle" transform="translate(372.5815362671221,472.02088671707634)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n30">
+                <circle class="node-circle midmarker-circle" transform="translate(372.5076310519077,492.0207501670893)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n31">
+                <circle class="node-circle multimarker-circle" transform="translate(372.43372583669327,512.0206136171023)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n32">
+                <circle class="node-circle metabolite-circle" transform="translate(412.91383663561277,382.1693116224469)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(442.91383663561277,392.1693116224469)">Coenzyme A</text>
+            </g>
+            <g class="node" id="n34">
+                <circle class="node-circle metabolite-circle" transform="translate(412.10087926825446,602.1678095725894)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(442.10087926825446,612.1678095725894)">Formate</text>
+            </g>
+            <g class="node" id="n35">
+                <circle class="node-circle multimarker-circle" transform="translate(751.7371534330576,775.3534698929744)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n36">
+                <circle class="node-circle midmarker-circle" transform="translate(731.7378968589372,775.1810271995913)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n37">
+                <circle class="node-circle multimarker-circle" transform="translate(711.7386402848167,775.0085845062082)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n38">
+                <circle class="node-circle metabolite-circle" transform="translate(842.0786934033658,736.1309488649579)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(792.0786934033658,696.1309488649579)">ATP</text>
+            </g>
+            <g class="node" id="n39">
+                <circle class="node-circle metabolite-circle" transform="translate(622.0868710880412,734.2340792377431)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(572.0868710880412,694.2340792377431)">Diphosphate</text>
+            </g>
+            <g class="node" id="n40">
+                <circle class="node-circle metabolite-circle" transform="translate(841.3889226298331,816.1279751614395)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(791.3889226298331,776.1279751614395)">Coenzyme A</text>
+            </g>
+            <g class="node" id="n41">
+                <circle class="node-circle metabolite-circle" transform="translate(621.3971003145086,814.2311055342249)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(571.3971003145086,774.2311055342249)">AMP</text>
+            </g>
+            <g class="node" id="n43">
+                <circle class="node-circle multimarker-circle" transform="translate(1077.4139715984375,498.63579562472535)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n45">
+                <circle class="node-circle multimarker-circle" transform="translate(1077.991047933775,458.6399585550603)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n53">
+                <circle class="node-circle metabolite-circle" transform="translate(737.313597607646,1166.3772532085343)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(767.313597607646,1176.3772532085343)">Acetaldehyde</text>
+            </g>
+            <g class="node" id="n58">
+                <circle class="node-circle midmarker-circle" transform="translate(910.0083909896795,985.55874620651)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n59">
+                <circle class="node-circle multimarker-circle" transform="translate(921.4230546614717,969.1360346989707)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n65">
+                <circle class="node-circle multimarker-circle" transform="translate(374.06348988107413,-49.75344257845245)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n66">
+                <circle class="node-circle midmarker-circle" transform="translate(374.18071889782277,-29.753786147462648)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n67">
+                <circle class="node-circle multimarker-circle" transform="translate(374.2979479145714,-9.754129716472846)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n70">
+                <circle class="node-circle metabolite-circle" transform="translate(414.8247913519199,80.00986618948406)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(444.8247913519199,90.00986618948406)">H+</text>
+            </g>
+            <g class="node" id="n71">
+                <circle class="node-circle metabolite-circle" transform="translate(333.53664644372566,-139.51743848440935)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(363.53664644372566,-129.51743848440935)">Nicotinamide adenine dinucleotide</text>
+            </g>
+            <g class="node" id="n72">
+                <circle class="node-circle multimarker-circle" transform="translate(77.18792041294853,222.29904985175182)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n73">
+                <circle class="node-circle midmarker-circle" transform="translate(97.18791184840029,222.28054088481778)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n74">
+                <circle class="node-circle multimarker-circle" transform="translate(117.187903283852,222.26203191788375)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n76">
+                <circle class="node-circle metabolite-circle" transform="translate(207.1508468095168,182.1787586957771)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(157.1508468095168,142.1787586957771)">Nicotinamide adenine dinucleotide - reduced</text>
+            </g>
+            <g class="node" id="n85">
+                <circle class="node-circle multimarker-circle" transform="translate(685.2357544184712,514.0728050067898)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n87">
+                <circle class="node-circle multimarker-circle" transform="translate(715.2352294425721,487.6146966413312)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n90">
+                <circle class="node-circle metabolite-circle" transform="translate(756.2759398813404,398.0844777949485)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(706.2759398813404,358.0844777949485)">Coenzyme A</text>
+            </g>
+            <g class="node" id="n91">
+                <circle class="node-circle multimarker-circle" transform="translate(170.17208698575192,698.4407882788264)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n92">
+                <circle class="node-circle midmarker-circle" transform="translate(151.11682739962328,692.3664914384296)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n93">
+                <circle class="node-circle multimarker-circle" transform="translate(132.06156781349472,686.2921945980329)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n94">
+                <circle class="node-circle metabolite-circle" transform="translate(319.6962127273272,793.8556749711502)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(349.6962127273272,803.8556749711502)">H2O</text>
+            </g>
+            <g class="node" id="n95">
+                <circle class="node-circle metabolite-circle" transform="translate(343.99340008891414,717.6346366266357)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(373.99340008891414,727.6346366266357)">3-Methyl-2-oxobutanoate</text>
+            </g>
+            <g class="node" id="n96">
+                <circle class="node-circle metabolite-circle" transform="translate(34.164305995122504,697.0683779885048)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(64.1643059951225,707.0683779885048)">Coenzyme A</text>
+            </g>
+            <g class="node" id="n97">
+                <circle class="node-circle metabolite-circle" transform="translate(58.46149335670947,620.8473396439904)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(88.46149335670947,630.8473396439904)">H+</text>
+            </g>
+            <g class="node" id="n106">
+                <circle class="node-circle metabolite-circle" transform="translate(-68.10267800086808,1018.8226836475683)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-118.10267800086808,978.8226836475683)">H+</text>
+            </g>
+            <g class="node" id="n107">
+                <circle class="node-circle metabolite-circle" transform="translate(-104.05123941653892,947.3545023908457)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-154.05123941653892,907.3545023908457)">Phosphate</text>
+            </g>
+        </g>
+        <g id="beziers">
+            <g id="18_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="18_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="19_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="19_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="20_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="20_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="21_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="21_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="22_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="22_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="23_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="23_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="24_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="24_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="25_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="25_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="28_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="28_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="29_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="29_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="30_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="30_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="31_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="31_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="34_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="34_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="35_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="35_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="36_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="36_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="37_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="37_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="38_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="38_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="39_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="39_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="42_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="42_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="43_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="43_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="44_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="44_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="45_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="45_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="48_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="48_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="49_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="49_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="50_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="50_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="51_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="51_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="52_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="52_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="53_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="53_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="56_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="56_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="57_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="57_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="58_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="58_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="59_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="59_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="60_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="60_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="61_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="61_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="64_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="64_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="65_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="65_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="66_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="66_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="67_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="67_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="68_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="68_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="71_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="71_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="72_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="72_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="73_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="73_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="74_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="74_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="75_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="75_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="84_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="84_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="85_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="85_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="86_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="86_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="87_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="87_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="90_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="90_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="91_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="91_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="92_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="92_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="93_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="93_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="94_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="94_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="95_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="95_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="98_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="98_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="99_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="99_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="100_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="100_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="101_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="101_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="102_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="102_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="103_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="103_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="104_b1" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b1" r="7px" style="stroke-width: 1px;"/>
+            </g>
+            <g id="104_b2" class="bezier" visibility="hidden">
+                <path class="connect-line"/>
+                <circle class="bezier-circle b2" r="7px" style="stroke-width: 1px;"/>
+            </g>
+        </g>
+        <g id="text-labels"/>
+        <g id="direction-arrow-container" transform="translate(101.94964586766855,902.7008547884523)rotate(153.2975616455078)">
+            <path class="direction-arrow" d="M0 -5 L0 5 L20 5 L20 10 L30 0 L20 -10 L20 -5 Z" transform="translate(30,0)scale(2.5)" style="visibility: hidden;"/>
+        </g>
+        <g id="rotation-center" transform="translate(1083.862639773622,274.7074278979848)" visibility="hidden">
+            <path d="M-32 0 L32 0" class="rotation-center-line"/>
+            <path d="M0 -32 L0 32" class="rotation-center-line"/>
+        </g>
+    </g>
+</svg>
