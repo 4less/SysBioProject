@@ -9537,25 +9537,6 @@
       </rdf:RDF>
     </annotation>
   </fbc:geneProduct>
-</fbc:listOfGeneProducts><groups:listOfGroups>
-  <groups:group sboTerm="SBO:0000633" groups:id="g12" groups:name="Citric Acid Cycle" groups:kind="partonomy">
-    <groups:listOfMembers>
-      <groups:member groups:idRef="R_ACONT"/>
-      <groups:member groups:idRef="R_AKGDa"/>
-      <groups:member groups:idRef="R_AKGDb"/>
-      <groups:member groups:idRef="R_CS"/>
-      <groups:member groups:idRef="R_FUM"/>
-      <groups:member groups:idRef="R_ICDHyr"/>
-      <groups:member groups:idRef="R_MDH"/>
-      <groups:member groups:idRef="R_MDH3"/>
-      <groups:member groups:idRef="R_NADTRHD"/>
-      <groups:member groups:idRef="R_PC"/>
-      <groups:member groups:idRef="R_PPCK"/>
-      <groups:member groups:idRef="R_PROD2"/>
-      <groups:member groups:idRef="R_SUCD1"/>
-      <groups:member groups:idRef="R_SUCOAS"/>
-    </groups:listOfMembers>
-  </groups:group>
-</groups:listOfGroups>
+</fbc:listOfGeneProducts>
 </model>
 </sbml>

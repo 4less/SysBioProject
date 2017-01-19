@@ -10628,35 +10628,6 @@
       </rdf:RDF>
     </annotation>
   </fbc:geneProduct>
-</fbc:listOfGeneProducts><groups:listOfGroups>
-  <groups:group sboTerm="SBO:0000633" groups:id="g6" groups:name="Amino Acid Metabolism" groups:kind="partonomy">
-    <groups:listOfMembers>
-      <groups:member groups:idRef="R_ACGK"/>
-      <groups:member groups:idRef="R_ACOTA"/>
-      <groups:member groups:idRef="R_ADSK"/>
-      <groups:member groups:idRef="R_ASAD"/>
-      <groups:member groups:idRef="R_ASNS1"/>
-      <groups:member groups:idRef="R_BPNT"/>
-      <groups:member groups:idRef="R_CYSS"/>
-      <groups:member groups:idRef="R_DKMPPD"/>
-      <groups:member groups:idRef="R_DKMPPD2"/>
-      <groups:member groups:idRef="R_HCYSMT"/>
-      <groups:member groups:idRef="R_MDRPD"/>
-      <groups:member groups:idRef="R_MTAN"/>
-      <groups:member groups:idRef="R_MTRI"/>
-      <groups:member groups:idRef="R_MTRK"/>
-      <groups:member groups:idRef="R_P5CD"/>
-      <groups:member groups:idRef="R_P5CR"/>
-      <groups:member groups:idRef="R_PAPSR"/>
-      <groups:member groups:idRef="R_SADT2"/>
-      <groups:member groups:idRef="R_SDPDS"/>
-      <groups:member groups:idRef="R_SULR"/>
-      <groups:member groups:idRef="R_SULabc"/>
-      <groups:member groups:idRef="R_THRD_L"/>
-      <groups:member groups:idRef="R_UAMAS"/>
-      <groups:member groups:idRef="R_UNK3"/>
-    </groups:listOfMembers>
-  </groups:group>
-</groups:listOfGroups>
+</fbc:listOfGeneProducts>
 </model>
 </sbml>

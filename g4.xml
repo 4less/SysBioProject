@@ -9247,22 +9247,6 @@
       </rdf:RDF>
     </annotation>
   </fbc:geneProduct>
-</fbc:listOfGeneProducts><groups:listOfGroups>
-  <groups:group sboTerm="SBO:0000633" groups:id="g4" groups:name="Pyruvate Metabolism" groups:kind="partonomy">
-    <groups:listOfMembers>
-      <groups:member groups:idRef="R_ACALD"/>
-      <groups:member groups:idRef="R_ACCOAC"/>
-      <groups:member groups:idRef="R_ACKr"/>
-      <groups:member groups:idRef="R_ACS"/>
-      <groups:member groups:idRef="R_ALDD2x"/>
-      <groups:member groups:idRef="R_IPPS"/>
-      <groups:member groups:idRef="R_LDH_D"/>
-      <groups:member groups:idRef="R_ME1"/>
-      <groups:member groups:idRef="R_PFL"/>
-      <groups:member groups:idRef="R_POX2"/>
-      <groups:member groups:idRef="R_PTAr"/>
-    </groups:listOfMembers>
-  </groups:group>
-</groups:listOfGroups>
+</fbc:listOfGeneProducts>
 </model>
 </sbml>
