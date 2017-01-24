@@ -1,0 +1,40 @@
+-> O-Acetyl-L-serine
+-> Acetaldehyd
+3-Carboxy-3-hydroxy-4-methylpentanoate ->  (_3c3hmp_c) true
+Malonyl-CoA -> (malcoa_c) true
+D-Lactate -> (lac__D_c) true
+Phosphoenolpyruvate -> (pep_c) true
+-> L-Proline (pro__L_c) false
+-> L-Glutamine (gln__L_c) false
+-> Chorismate (chor_c) false
+-> Hydroxymethylbilane (hmbil_c) false
+Copropophyrinogen III -> (cpppg3_c) true
+Di-hydrosirohydrochlorin -> (dscl_c) true
+-> S-Adenosyl-4-methylthio-2-oxobutanoat (amob_c) false
+L-Methionine -> (met__L_c) true
+-> L-Homocysteine (hcys__L_c) false
+-> S
+
+
+H2O
+H+
+NAD
+NADH
+CoA
+Hydrogen sulfide
+L-Cysteine
+3_methyl-3-oxobutanoate
+phosphate
+adp
+atp
+formate
+diphosphate
+CO2
+hydrogen peroxide
+O2
+Menaquinol 8
+Menaquinone 8
+FAD
+FADH
+
+
