@@ -9,32 +9,49 @@ Phosphoenolpyruvate -> (pep_c) true
 -> Chorismate (chor_c) false
 -> Hydroxymethylbilane (hmbil_c) false
 Copropophyrinogen III -> (cpppg3_c) true
-Di-hydrosirohydrochlorin -> (dscl_c) true
+Dihydrosirohydrochlorin -> (dscl_c) true
 -> S-Adenosyl-4-methylthio-2-oxobutanoat (amob_c) false
 L-Methionine -> (met__L_c) true
 -> L-Homocysteine (hcys__L_c) false
--> S
+L-Cysteine (cys__L_c) ->  true
+S-Adenosyl-L-homocyteine -> true
+-> Adenosyl cobyrinate diamide false
+adenosyl-cyobric acid -> true
+-> Bicarbonate false
 
 
-H2O
-H+
+H2O (7:2) In : out
+ATP (6:1:1) 
+ADP (0:4:1)
 NAD
 NADH
-CoA
-Hydrogen sulfide
-L-Cysteine
-3_methyl-3-oxobutanoate
-phosphate
-adp
-atp
-formate
-diphosphate
+NADP
+NADPH
 CO2
-hydrogen peroxide
+H+
+CoA
+FAD , FADH
+Phosphate, Diphosphate
+Formate
 O2
-Menaquinol 8
-Menaquinone 8
-FAD
-FADH
 
+
+Hydrogen sulfide
+hydrogen peroxide
+3_methyl-3-oxobutanoate
+Menaquinone 8
+Menaquinol 8
+
+Dihydrolipoamide C8H17N0S2
+Lipoamide C8...
+
+N2-Acetyl_L-ornithine
+N-Acetyl-L-gluatamte-Semialdehyde
+2-Keto-4-methylthiobutyrate
+4-amino-4-deoxychorismate
+
+L-Aspartate
+L-Asparagine
+8-amino-7-oxononanoate
+7,8-Diaminononanoate
 
