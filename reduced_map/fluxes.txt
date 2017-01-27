@@ -14,10 +14,10 @@ Dihydrosirohydrochlorin -> (dscl_c) true
 L-Methionine -> (met__L_c) true
 -> L-Homocysteine (hcys__L_c) false
 L-Cysteine (cys__L_c) ->  true
-S-Adenosyl-L-homocyteine -> true
--> Adenosyl cobyrinate diamide false
-adenosyl-cyobric acid -> true
--> Bicarbonate false
+S-Adenosyl-L-homocyteine -> true (M_ahcys_c)
+-> Adenosyl cobyrinate diamide false (M_adcobdam_c)
+adenosyl-cyobric acid -> true (M_adcobhex_c)
+-> Bicarbonate false (M_hco3_c)
 
 
 H2O (7:2) In : out

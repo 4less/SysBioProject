@@ -1,0 +1,2086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" level="3" version="1" layout:required="false">
+  <model id="JbCkJzt6ZQeg" name="new_map" substanceUnits="substance" timeUnits="time" extentUnits="substance">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>Last Modified Thu Jan 19 2017 15:07:55 GMT+0100 (CET)</p>
+        <p>
+          <a href="https://escher.github.io">Escher</a>
+        </p>
+      </body>
+    </notes>
+    <listOfUnitDefinitions>
+      <unitDefinition id="substance" name="Predefined unit substance">
+        <listOfUnits>
+          <unit metaid="b45769e7-c9b8-40d0-aaad-4a7c2035702e" kind="mole" exponent="1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#b45769e7-c9b8-40d0-aaad-4a7c2035702e">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="time" name="Predefined unit time">
+        <listOfUnits>
+          <unit metaid="d7aee545-57f1-420d-bb31-18e974c37557" kind="second" exponent="1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#d7aee545-57f1-420d-bb31-18e974c37557">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume" name="Predefined unit volume">
+        <listOfUnits>
+          <unit metaid="b8c5161d-b6ab-4e97-9587-f3169592cca9" kind="litre" exponent="1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#b8c5161d-b6ab-4e97-9587-f3169592cca9">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000099"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mole_pow_3_per_second" name="per mole^3 per second">
+        <listOfUnits>
+          <unit metaid="_2bf47576-e897-4642-b947-d253a463d32c" kind="mole" exponent="-3" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_2bf47576-e897-4642-b947-d253a463d32c">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_67aa2c7e-054a-430f-9bad-7e92dbb39694" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_67aa2c7e-054a-430f-9bad-7e92dbb39694">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mole_pow_2_per_second" name="per mole^2 per second">
+        <listOfUnits>
+          <unit metaid="ae5832fa-477e-406a-a757-8a8b93f34400" kind="mole" exponent="-2" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#ae5832fa-477e-406a-a757-8a8b93f34400">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_288bde22-8ff3-456b-910b-d012c5184035" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_288bde22-8ff3-456b-910b-d012c5184035">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mole_per_second" name="per mole per second">
+        <listOfUnits>
+          <unit metaid="_64f76b25-6bfa-44a0-8b0b-1ac3832c827a" kind="mole" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_64f76b25-6bfa-44a0-8b0b-1ac3832c827a">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_1e1dbf2e-1913-4c20-ae09-03a3139d73f0" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_1e1dbf2e-1913-4c20-ae09-03a3139d73f0">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_second" name="per second">
+        <listOfUnits>
+          <unit metaid="_968b6574-548c-475c-b064-8bd6a05ed855" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_968b6574-548c-475c-b064-8bd6a05ed855">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mole_pow_4dot5_per_second" name="per mole^4.5 per second">
+        <listOfUnits>
+          <unit metaid="_14ec996e-532f-4ba1-8427-e58313edd300" kind="mole" exponent="-4.5" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_14ec996e-532f-4ba1-8427-e58313edd300">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_1d0e6398-528b-4d54-a0b5-595ba03f77f7" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_1d0e6398-528b-4d54-a0b5-595ba03f77f7">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mole_pow_4_per_second" name="per mole^4 per second">
+        <listOfUnits>
+          <unit metaid="b12075ff-964c-4957-a810-f29ed6e627b3" kind="mole" exponent="-4" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#b12075ff-964c-4957-a810-f29ed6e627b3">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_2f3a9192-0352-4098-be0c-f7b12d91e466" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_2f3a9192-0352-4098-be0c-f7b12d91e466">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_mole_pow_12_per_second" name="per mole^12 per second">
+        <listOfUnits>
+          <unit metaid="_22e96b0c-bcf3-4fde-805f-b886402755da" kind="mole" exponent="-12" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_22e96b0c-bcf3-4fde-805f-b886402755da">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_0aef773d-39ed-48a2-a7da-ba9cd3be894d" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_0aef773d-39ed-48a2-a7da-ba9cd3be894d">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_second_times_mole" name="per second times mole">
+        <listOfUnits>
+          <unit metaid="_3fffe2e8-bb79-4f05-bf55-c39f75df4d09" kind="second" exponent="-1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_3fffe2e8-bb79-4f05-bf55-c39f75df4d09">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit metaid="_8d6eefd5-ed3c-40e8-a599-cd88909ff69d" kind="mole" exponent="1" scale="0" multiplier="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#_8d6eefd5-ed3c-40e8-a599-cd88909ff69d">
+                  <bqbiol:is>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013"/>
+                    </rdf:Bag>
+                  </bqbiol:is>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment sboTerm="SBO:0000290" id="c" name="Cytosol" spatialDimensions="3" size="1" units="volume" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species sboTerm="SBO:0000247" id="h2o_c" name="H2O" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="oaa_c" name="Oxaloacetate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="cit_c" name="Citrate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="coa_c" name="Coenzyme A" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="h_c" name="H+" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="accoa_c" name="Acetyl-CoA" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="icit_c" name="Isocitrate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="akg_c" name="2-Oxoglutarate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="co2_c" name="CO2" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="nadp_c" name="Nicotinamide adenine dinucleotide phosphate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="nadph_c" name="Nicotinamide adenine dinucleotide phosphate - reduced" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="sdhlam_c" name="S Succinyldihydrolipoamide C12H20NO4S2" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="lpam_c" name="Lipoamide C8H15NOS2" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="succoa_c" name="Succinyl-CoA" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="dhlam_c" name="Dihydrolipoamide C8H17NOS2" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="atp_c" name="ATP" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="succ_c" name="Succinate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="adp_c" name="ADP" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="pi_c" name="Phosphate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="fadh2_c" name="Flavin adenine dinucleotide reduced" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="fum_c" name="Fumarate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="fad_c" name="Flavin adenine dinucleotide oxidized" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="mal__L_c" name="L-Malate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="nadh_c" name="Nicotinamide adenine dinucleotide - reduced" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="nad_c" name="Nicotinamide adenine dinucleotide" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="mqn8_c" name="Menaquinone 8" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="mql8_c" name="Menaquinol 8" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="pep_c" name="Phosphoenolpyruvate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="hco3_c" name="Bicarbonate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="pyr_c" name="Pyruvate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="o2_c" name="O2" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="h2o2_c" name="Hydrogen peroxide" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="actp_c" name="Acetyl phosphate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="ac_c" name="Acetate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="ppi_c" name="Diphosphate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="amp_c" name="AMP" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="for_c" name="Formate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="false"/>
+      <species sboTerm="SBO:0000247" id="acald_c" name="Acetaldehyde" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="lac__D_c" name="D-Lactate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="glu__L_c" name="L-Glutamate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="_2kmb_c" name="2-keto-4-methylthiobutyrate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="met__L_c" name="L-Methionine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="acorn_c" name="N2-Acetyl-L-ornithine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="acg5sa_c" name="N-Acetyl-L-glutamate 5-semialdehyde" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="hcys__L_c" name="L-Homocysteine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="amet_c" name="S-Adenosyl-L-methionine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="ahcys_c" name="S-Adenosyl-L-homocysteine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="_8aonn_c" name="8-Amino-7-oxononanoate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="amob_c" name="S-Adenosyl-4-methylthio-2-oxobutanoate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="dann_c" name="7,8-Diaminononanoate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="dscl_c" name="Dihydrosirohydrochlorin" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="uppg3_c" name="Uroporphyrinogen III" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="asp__L_c" name="L-Aspartate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="asn__L_c" name="L-Asparagine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="gln__L_c" name="L-Glutamine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="chor_c" name="Chorismate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="_4adcho_c" name="4-amino-4-deoxychorismate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="adcobdam_c" name="Adenosyl cobyrinate diamide" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="adcobhex_c" name="Adenosyl-cobyric acid" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="_1pyr5c_c" name="1-Pyrroline-5-carboxylate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="cys__L_c" name="L-Cysteine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="acser_c" name="O-Acetyl-L-serine" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="h2s_c" name="Hydrogen sulfide" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="cpppg3_c" name="Coproporphyrinogen III" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="hmbil_c" name="Hydroxymethylbilane" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="pro__L_c" name="L-Proline" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="_3mob_c" name="3-Methyl-2-oxobutanoate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="_3c3hmp_c" name="3-Carboxy-3-hydroxy-4-methylpentanoate" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000247" id="malcoa_c" name="Malonyl-CoA" compartment="c" initialAmount="1" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction sboTerm="SBO:0000375" id="CS" name="Citrate synthase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="CS_reactant_1" species="accoa_c" stoichiometry="1" constant="true"/>
+          <!---<speciesReference sboTerm="SBO:0000010" id="CS_reactant_2" species="h2o_c" stoichiometry="1" constant="true"/>-->
+          <speciesReference sboTerm="SBO:0000010" id="CS_reactant_3" species="oaa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="CS_product_1" species="cit_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="CS_product_2" species="h_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="CS_product_3" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_CS </ci>
+              <apply>
+                <power/>
+                <ci> accoa_c </ci>
+                <ci> CS_reactant_1 </ci>
+              </apply>
+              <!---<apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> CS_reactant_2 </ci>
+              </apply>-->
+              <apply>
+                <power/>
+                <ci> oaa_c </ci>
+                <ci> CS_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_CS" name="forward constant of reaction CS" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ACONT" name="Aconitase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ACONT_reactant_1" species="cit_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ACONT_product_1" species="icit_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000080">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_ACONT </ci>
+                <apply>
+                  <power/>
+                  <ci> cit_c </ci>
+                  <ci> ACONT_reactant_1 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_ACONT </ci>
+                <apply>
+                  <power/>
+                  <ci> icit_c </ci>
+                  <ci> ACONT_product_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ACONT" name="forward constant of reaction ACONT" value="1" units="per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_ACONT" name="reverse constant of reaction ACONT" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ICDHyr" name="Isocitrate dehydrogenase (NADP)" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ICDHyr_reactant_1" species="icit_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ICDHyr_reactant_2" species="nadp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ICDHyr_product_1" species="nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ICDHyr_product_2" species="akg_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ICDHyr_product_3" species="co2_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000108">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_ICDHyr </ci>
+                <apply>
+                  <power/>
+                  <ci> icit_c </ci>
+                  <ci> ICDHyr_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> nadp_c </ci>
+                  <ci> ICDHyr_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_ICDHyr </ci>
+                <apply>
+                  <power/>
+                  <ci> nadph_c </ci>
+                  <ci> ICDHyr_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> akg_c </ci>
+                  <ci> ICDHyr_product_2 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> co2_c </ci>
+                  <ci> ICDHyr_product_3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ICDHyr" name="forward constant of reaction ICDHyr" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_ICDHyr" name="reverse constant of reaction ICDHyr" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="AKGDa" name="Oxoglutarate dehydrogenase (lipoamide)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="AKGDa_reactant_1" species="lpam_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="AKGDa_reactant_2" species="akg_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="AKGDa_reactant_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="AKGDa_product_1" species="sdhlam_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="AKGDa_product_2" species="co2_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_AKGDa </ci>
+              <apply>
+                <power/>
+                <ci> lpam_c </ci>
+                <ci> AKGDa_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> akg_c </ci>
+                <ci> AKGDa_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h_c </ci>
+                <ci> AKGDa_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_AKGDa" name="forward constant of reaction AKGDa" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="AKGDb" name="Oxoglutarate dehydrogenase (dihydrolipoamide S-succinyltransferase)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="AKGDb_reactant_1" species="sdhlam_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="AKGDb_reactant_2" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="AKGDb_product_1" species="dhlam_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="AKGDb_product_2" species="succoa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_AKGDb </ci>
+              <apply>
+                <power/>
+                <ci> sdhlam_c </ci>
+                <ci> AKGDb_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> coa_c </ci>
+                <ci> AKGDb_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_AKGDb" name="forward constant of reaction AKGDb" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="SUCOAS" name="Succinyl-CoA synthetase (ADP-forming)" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="SUCOAS_reactant_1" species="succ_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="SUCOAS_reactant_2" species="atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="SUCOAS_reactant_3" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="SUCOAS_product_1" species="adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="SUCOAS_product_2" species="pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="SUCOAS_product_3" species="succoa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000129">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_SUCOAS </ci>
+                <apply>
+                  <power/>
+                  <ci> succ_c </ci>
+                  <ci> SUCOAS_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> atp_c </ci>
+                  <ci> SUCOAS_reactant_2 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> coa_c </ci>
+                  <ci> SUCOAS_reactant_3 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_SUCOAS </ci>
+                <apply>
+                  <power/>
+                  <ci> adp_c </ci>
+                  <ci> SUCOAS_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> pi_c </ci>
+                  <ci> SUCOAS_product_2 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> succoa_c </ci>
+                  <ci> SUCOAS_product_3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_SUCOAS" name="forward constant of reaction SUCOAS" value="1" units="per_mole_pow_2_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_SUCOAS" name="reverse constant of reaction SUCOAS" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="SUCD1" name="Succinate dehydrogenase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="SUCD1_reactant_1" species="fad_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="SUCD1_reactant_2" species="succ_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="SUCD1_product_1" species="fadh2_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="SUCD1_product_2" species="fum_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000104">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_SUCD1 </ci>
+                <apply>
+                  <power/>
+                  <ci> fad_c </ci>
+                  <ci> SUCD1_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> succ_c </ci>
+                  <ci> SUCD1_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_SUCD1 </ci>
+                <apply>
+                  <power/>
+                  <ci> fadh2_c </ci>
+                  <ci> SUCD1_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> fum_c </ci>
+                  <ci> SUCD1_product_2 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_SUCD1" name="forward constant of reaction SUCD1" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_SUCD1" name="reverse constant of reaction SUCD1" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="FUM" name="Fumarase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="FUM_reactant_1" species="fum_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="FUM_reactant_2" species="h2o_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="FUM_product_1" species="mal__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000101">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_FUM </ci>
+                <apply>
+                  <power/>
+                  <ci> fum_c </ci>
+                  <ci> FUM_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> h2o_c </ci>
+                  <ci> FUM_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_FUM </ci>
+                <apply>
+                  <power/>
+                  <ci> mal__L_c </ci>
+                  <ci> FUM_product_1 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_FUM" name="forward constant of reaction FUM" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_FUM" name="reverse constant of reaction FUM" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="MDH" name="Malate dehydrogenase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="MDH_reactant_1" species="mal__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="MDH_reactant_2" species="nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="MDH_product_1" species="nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="MDH_product_2" species="oaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="MDH_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000108">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_MDH </ci>
+                <apply>
+                  <power/>
+                  <ci> mal__L_c </ci>
+                  <ci> MDH_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> nad_c </ci>
+                  <ci> MDH_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_MDH </ci>
+                <apply>
+                  <power/>
+                  <ci> nadh_c </ci>
+                  <ci> MDH_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> oaa_c </ci>
+                  <ci> MDH_product_2 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> h_c </ci>
+                  <ci> MDH_product_3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_MDH" name="forward constant of reaction MDH" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_MDH" name="reverse constant of reaction MDH" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="MDH3" name="Malate dehydrogenase (menaquinone 8 as acceptor)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="MDH3_reactant_1" species="mal__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="MDH3_reactant_2" species="mqn8_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="MDH3_product_1" species="oaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="MDH3_product_2" species="mql8_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_MDH3 </ci>
+              <apply>
+                <power/>
+                <ci> mal__L_c </ci>
+                <ci> MDH3_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> mqn8_c </ci>
+                <ci> MDH3_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_MDH3" name="forward constant of reaction MDH3" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="PPCK" name="Phosphoenolpyruvate carboxykinase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="PPCK_reactant_1" species="oaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="PPCK_reactant_2" species="atp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="PPCK_product_1" species="pep_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PPCK_product_2" species="adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PPCK_product_3" species="co2_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_PPCK </ci>
+              <apply>
+                <power/>
+                <ci> oaa_c </ci>
+                <ci> PPCK_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> atp_c </ci>
+                <ci> PPCK_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_PPCK" name="forward constant of reaction PPCK" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="PC" name="Pyruvate carboxylase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="PC_reactant_1" species="atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="PC_reactant_2" species="hco3_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="PC_reactant_3" species="pyr_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="PC_product_1" species="adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PC_product_2" species="pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PC_product_3" species="oaa_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PC_product_4" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_PC </ci>
+              <apply>
+                <power/>
+                <ci> atp_c </ci>
+                <ci> PC_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> hco3_c </ci>
+                <ci> PC_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> pyr_c </ci>
+                <ci> PC_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_PC" name="forward constant of reaction PC" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ME1" name="Malic enzyme (NAD)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ME1_reactant_1" species="mal__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ME1_reactant_2" species="nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ME1_product_1" species="nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ME1_product_2" species="co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ME1_product_3" species="pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ME1 </ci>
+              <apply>
+                <power/>
+                <ci> mal__L_c </ci>
+                <ci> ME1_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> nad_c </ci>
+                <ci> ME1_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ME1" name="forward constant of reaction ME1" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="POX2" name="Pyruvate Oxidase (2)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="POX2_reactant_1" species="o2_c" stoichiometry="1.5" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="POX2_reactant_2" species="h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="POX2_reactant_3" species="pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="POX2_reactant_4" species="h_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="POX2_reactant_5" species="pyr_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="POX2_product_1" species="h2o2_c" stoichiometry="2" constant="true"/>
+          <speciesReference id="POX2_product_2" species="co2_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="POX2_product_3" species="actp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_POX2 </ci>
+              <apply>
+                <power/>
+                <ci> o2_c </ci>
+                <ci> POX2_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> POX2_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> pi_c </ci>
+                <ci> POX2_reactant_3 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h_c </ci>
+                <ci> POX2_reactant_4 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> pyr_c </ci>
+                <ci> POX2_reactant_5 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_POX2" name="forward constant of reaction POX2" value="1" units="per_mole_pow_4dot5_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ACKr" name="Acetate kinase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ACKr_reactant_1" species="ac_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACKr_reactant_2" species="atp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ACKr_product_1" species="adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACKr_product_2" species="actp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000104">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_ACKr </ci>
+                <apply>
+                  <power/>
+                  <ci> ac_c </ci>
+                  <ci> ACKr_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> atp_c </ci>
+                  <ci> ACKr_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_ACKr </ci>
+                <apply>
+                  <power/>
+                  <ci> adp_c </ci>
+                  <ci> ACKr_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> actp_c </ci>
+                  <ci> ACKr_product_2 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ACKr" name="forward constant of reaction ACKr" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_ACKr" name="reverse constant of reaction ACKr" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ACS" name="Acetyl-CoA synthetase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ACS_reactant_1" species="ac_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACS_reactant_2" species="atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACS_reactant_3" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ACS_product_1" species="amp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACS_product_2" species="ppi_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACS_product_3" species="accoa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ACS </ci>
+              <apply>
+                <power/>
+                <ci> ac_c </ci>
+                <ci> ACS_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> atp_c </ci>
+                <ci> ACS_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> coa_c </ci>
+                <ci> ACS_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ACS" name="forward constant of reaction ACS" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="PFL" name="Pyruvate formate lyase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="PFL_reactant_1" species="pyr_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="PFL_reactant_2" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="PFL_product_1" species="accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PFL_product_2" species="for_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000104">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_PFL </ci>
+                <apply>
+                  <power/>
+                  <ci> pyr_c </ci>
+                  <ci> PFL_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> coa_c </ci>
+                  <ci> PFL_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_PFL </ci>
+                <apply>
+                  <power/>
+                  <ci> accoa_c </ci>
+                  <ci> PFL_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> for_c </ci>
+                  <ci> PFL_product_2 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_PFL" name="forward constant of reaction PFL" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_PFL" name="reverse constant of reaction PFL" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="PTAr" name="Phosphotransacetylase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="PTAr_reactant_1" species="accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="PTAr_reactant_2" species="pi_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="PTAr_product_1" species="actp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PTAr_product_2" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000104">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_PTAr </ci>
+                <apply>
+                  <power/>
+                  <ci> accoa_c </ci>
+                  <ci> PTAr_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> pi_c </ci>
+                  <ci> PTAr_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_PTAr </ci>
+                <apply>
+                  <power/>
+                  <ci> actp_c </ci>
+                  <ci> PTAr_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> coa_c </ci>
+                  <ci> PTAr_product_2 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_PTAr" name="forward constant of reaction PTAr" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_PTAr" name="reverse constant of reaction PTAr" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ALDD2x" name="Aldehyde dehydrogenase (acetaldehyde, NAD)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ALDD2x_reactant_1" species="h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ALDD2x_reactant_2" species="acald_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ALDD2x_reactant_3" species="nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ALDD2x_product_1" species="nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ALDD2x_product_2" species="ac_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ALDD2x_product_3" species="h_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ALDD2x </ci>
+              <apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> ALDD2x_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> acald_c </ci>
+                <ci> ALDD2x_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> nad_c </ci>
+                <ci> ALDD2x_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ALDD2x" name="forward constant of reaction ALDD2x" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ACALD" name="Acetaldehyde dehydrogenase (acetylating)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ACALD_reactant_1" species="acald_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACALD_reactant_2" species="coa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACALD_reactant_3" species="nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ACALD_product_1" species="nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACALD_product_2" species="accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACALD_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ACALD </ci>
+              <apply>
+                <power/>
+                <ci> acald_c </ci>
+                <ci> ACALD_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> coa_c </ci>
+                <ci> ACALD_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> nad_c </ci>
+                <ci> ACALD_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ACALD" name="forward constant of reaction ACALD" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="LDH_D" name="D-lactate dehydrogenase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="LDH_D_reactant_1" species="lac__D_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="LDH_D_reactant_2" species="nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="LDH_D_product_1" species="nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="LDH_D_product_2" species="h_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="LDH_D_product_3" species="pyr_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000108">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_LDH_D </ci>
+                <apply>
+                  <power/>
+                  <ci> lac__D_c </ci>
+                  <ci> LDH_D_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> nad_c </ci>
+                  <ci> LDH_D_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_LDH_D </ci>
+                <apply>
+                  <power/>
+                  <ci> nadh_c </ci>
+                  <ci> LDH_D_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> h_c </ci>
+                  <ci> LDH_D_product_2 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> pyr_c </ci>
+                  <ci> LDH_D_product_3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_LDH_D" name="forward constant of reaction LDH_D" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_LDH_D" name="reverse constant of reaction LDH_D" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="UNK3" name="2-keto-4-methylthiobutyrate transamination" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="UNK3_reactant_1" species="glu__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="UNK3_reactant_2" species="_2kmb_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="UNK3_product_1" species="akg_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="UNK3_product_2" species="met__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_UNK3 </ci>
+              <apply>
+                <power/>
+                <ci> glu__L_c </ci>
+                <ci> UNK3_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> _2kmb_c </ci>
+                <ci> UNK3_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_UNK3" name="forward constant of reaction UNK3" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ACOTA" name="Acetylornithine transaminase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ACOTA_reactant_1" species="acorn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACOTA_reactant_2" species="akg_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ACOTA_product_1" species="glu__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACOTA_product_2" species="acg5sa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000104">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_ACOTA </ci>
+                <apply>
+                  <power/>
+                  <ci> acorn_c </ci>
+                  <ci> ACOTA_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> akg_c </ci>
+                  <ci> ACOTA_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_ACOTA </ci>
+                <apply>
+                  <power/>
+                  <ci> glu__L_c </ci>
+                  <ci> ACOTA_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> acg5sa_c </ci>
+                  <ci> ACOTA_product_2 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ACOTA" name="forward constant of reaction ACOTA" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_ACOTA" name="reverse constant of reaction ACOTA" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="HCYSMT" name="Homocysteine S-methyltransferase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="HCYSMT_reactant_1" species="amet_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="HCYSMT_reactant_2" species="hcys__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="HCYSMT_product_1" species="ahcys_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="HCYSMT_product_2" species="met__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="HCYSMT_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_HCYSMT </ci>
+              <apply>
+                <power/>
+                <ci> amet_c </ci>
+                <ci> HCYSMT_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> hcys__L_c </ci>
+                <ci> HCYSMT_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_HCYSMT" name="forward constant of reaction HCYSMT" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="AMAOTr" name="Adenosylmethionine-8-amino-7-oxononanoate transaminase" reversible="true" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="AMAOTr_reactant_1" species="_8aonn_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="AMAOTr_reactant_2" species="amet_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="AMAOTr_product_1" species="amob_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="AMAOTr_product_2" species="dann_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000104">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> kf_AMAOTr </ci>
+                <apply>
+                  <power/>
+                  <ci> _8aonn_c </ci>
+                  <ci> AMAOTr_reactant_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> amet_c </ci>
+                  <ci> AMAOTr_reactant_2 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kr_AMAOTr </ci>
+                <apply>
+                  <power/>
+                  <ci> amob_c </ci>
+                  <ci> AMAOTr_product_1 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> dann_c </ci>
+                  <ci> AMAOTr_product_2 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_AMAOTr" name="forward constant of reaction AMAOTr" value="1" units="per_mole_per_second"/>
+            <localParameter sboTerm="SBO:0000156" id="kr_AMAOTr" name="reverse constant of reaction AMAOTr" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="UPP3MT" name="Uroporphyrinogen methyltransferase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="UPP3MT_reactant_1" species="uppg3_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="UPP3MT_reactant_2" species="amet_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="UPP3MT_product_1" species="ahcys_c" stoichiometry="2" constant="true"/>
+          <speciesReference id="UPP3MT_product_2" species="dscl_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="UPP3MT_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_UPP3MT </ci>
+              <apply>
+                <power/>
+                <ci> uppg3_c </ci>
+                <ci> UPP3MT_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> amet_c </ci>
+                <ci> UPP3MT_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_UPP3MT" name="forward constant of reaction UPP3MT" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ASNS1" name="Asparagine synthase (glutamine-hydrolysing)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ASNS1_reactant_1" species="gln__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ASNS1_reactant_2" species="asp__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ASNS1_reactant_3" species="h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ASNS1_reactant_4" species="atp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ASNS1_product_1" species="amp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ASNS1_product_2" species="ppi_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ASNS1_product_3" species="glu__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ASNS1_product_4" species="h_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ASNS1_product_5" species="asn__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ASNS1 </ci>
+              <apply>
+                <power/>
+                <ci> gln__L_c </ci>
+                <ci> ASNS1_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> asp__L_c </ci>
+                <ci> ASNS1_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> ASNS1_reactant_3 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> atp_c </ci>
+                <ci> ASNS1_reactant_4 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ASNS1" name="forward constant of reaction ASNS1" value="1" units="per_mole_pow_3_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ADCS" name="4-amino-4-deoxychorismate synthase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ADCS_reactant_1" species="chor_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ADCS_reactant_2" species="gln__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ADCS_product_1" species="_4adcho_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ADCS_product_2" species="glu__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ADCS </ci>
+              <apply>
+                <power/>
+                <ci> chor_c </ci>
+                <ci> ADCS_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> gln__L_c </ci>
+                <ci> ADCS_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ADCS" name="forward constant of reaction ADCS" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ADCYRS" name="Adenosylcobyric acid synthase (glutamine-hydrolysing)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ADCYRS_reactant_1" species="adcobdam_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ADCYRS_reactant_2" species="gln__L_c" stoichiometry="4" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ADCYRS_reactant_3" species="h2o_c" stoichiometry="4" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ADCYRS_reactant_4" species="atp_c" stoichiometry="4" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ADCYRS_product_1" species="adp_c" stoichiometry="4" constant="true"/>
+          <speciesReference id="ADCYRS_product_2" species="adcobhex_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ADCYRS_product_3" species="glu__L_c" stoichiometry="4" constant="true"/>
+          <speciesReference id="ADCYRS_product_4" species="pi_c" stoichiometry="4" constant="true"/>
+          <speciesReference id="ADCYRS_product_5" species="h_c" stoichiometry="4" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ADCYRS </ci>
+              <apply>
+                <power/>
+                <ci> adcobdam_c </ci>
+                <ci> ADCYRS_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> gln__L_c </ci>
+                <ci> ADCYRS_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> ADCYRS_reactant_3 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> atp_c </ci>
+                <ci> ADCYRS_reactant_4 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ADCYRS" name="forward constant of reaction ADCYRS" value="1" units="per_mole_pow_12_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="P5CD" name="1-pyrroline-5-carboxylate dehydrogenase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="P5CD_reactant_1" species="_1pyr5c_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="P5CD_reactant_2" species="h2o_c" stoichiometry="2" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="P5CD_reactant_3" species="nad_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="P5CD_product_1" species="nadh_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="P5CD_product_2" species="glu__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="P5CD_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_P5CD </ci>
+              <apply>
+                <power/>
+                <ci> _1pyr5c_c </ci>
+                <ci> P5CD_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> P5CD_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> nad_c </ci>
+                <ci> P5CD_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_P5CD" name="forward constant of reaction P5CD" value="1" units="per_mole_pow_3_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="CYSS" name="Cysteine synthase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="CYSS_reactant_1" species="acser_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="CYSS_reactant_2" species="h2s_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="CYSS_product_1" species="cys__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="CYSS_product_2" species="ac_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="CYSS_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_CYSS </ci>
+              <apply>
+                <power/>
+                <ci> acser_c </ci>
+                <ci> CYSS_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h2s_c </ci>
+                <ci> CYSS_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_CYSS" name="forward constant of reaction CYSS" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="UPPDC1" name="Uroporphyrinogen decarboxylase (uroporphyrinogen III)" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="UPPDC1_reactant_1" species="uppg3_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="UPPDC1_reactant_2" species="h_c" stoichiometry="4" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="UPPDC1_product_1" species="cpppg3_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="UPPDC1_product_2" species="co2_c" stoichiometry="4" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_UPPDC1 </ci>
+              <apply>
+                <power/>
+                <ci> uppg3_c </ci>
+                <ci> UPPDC1_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h_c </ci>
+                <ci> UPPDC1_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_UPPDC1" name="forward constant of reaction UPPDC1" value="1" units="per_mole_pow_4_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="UPP3S" name="Uroporphyrinogen-III synthase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="UPP3S_reactant_1" species="hmbil_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="UPP3S_product_1" species="uppg3_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="UPP3S_product_2" species="h2o_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_UPP3S </ci>
+              <apply>
+                <power/>
+                <ci> hmbil_c </ci>
+                <ci> UPP3S_reactant_1 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_UPP3S" name="forward constant of reaction UPP3S" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="PROD2" name="Proline dehydrogenase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="PROD2_reactant_1" species="fad_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="PROD2_reactant_2" species="pro__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="PROD2_product_1" species="fadh2_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PROD2_product_2" species="_1pyr5c_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="PROD2_product_3" species="h_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000054">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_PROD2 </ci>
+              <apply>
+                <power/>
+                <ci> fad_c </ci>
+                <ci> PROD2_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> pro__L_c </ci>
+                <ci> PROD2_reactant_2 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_PROD2" name="forward constant of reaction PROD2" value="1" units="per_mole_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="P5CR" name="Pyrroline-5-carboxylate reductase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="P5CR_reactant_1" species="nadph_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="P5CR_reactant_2" species="_1pyr5c_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="P5CR_reactant_3" species="h_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="P5CR_product_1" species="pro__L_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="P5CR_product_2" species="nadp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_P5CR </ci>
+              <apply>
+                <power/>
+                <ci> nadph_c </ci>
+                <ci> P5CR_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> _1pyr5c_c </ci>
+                <ci> P5CR_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h_c </ci>
+                <ci> P5CR_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_P5CR" name="forward constant of reaction P5CR" value="1" units="per_mole_pow_3_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="IPPS" name="2-isopropylmalate synthase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="IPPS_reactant_1" species="accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="IPPS_reactant_2" species="h2o_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="IPPS_reactant_3" species="_3mob_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="IPPS_product_1" species="_3c3hmp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="IPPS_product_2" species="h_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="IPPS_product_3" species="coa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_IPPS </ci>
+              <apply>
+                <power/>
+                <ci> accoa_c </ci>
+                <ci> IPPS_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> h2o_c </ci>
+                <ci> IPPS_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> _3mob_c </ci>
+                <ci> IPPS_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_IPPS" name="forward constant of reaction IPPS" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000375" id="ACCOAC" name="Acetyl-CoA carboxylase" reversible="false" fast="false" compartment="c">
+        <listOfReactants>
+          <speciesReference sboTerm="SBO:0000010" id="ACCOAC_reactant_1" species="accoa_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACCOAC_reactant_2" species="atp_c" stoichiometry="1" constant="true"/>
+          <speciesReference sboTerm="SBO:0000010" id="ACCOAC_reactant_3" species="hco3_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference id="ACCOAC_product_1" species="adp_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACCOAC_product_2" species="pi_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACCOAC_product_3" species="h_c" stoichiometry="1" constant="true"/>
+          <speciesReference id="ACCOAC_product_4" species="malcoa_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000061">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_ACCOAC </ci>
+              <apply>
+                <power/>
+                <ci> accoa_c </ci>
+                <ci> ACCOAC_reactant_1 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> atp_c </ci>
+                <ci> ACCOAC_reactant_2 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> hco3_c </ci>
+                <ci> ACCOAC_reactant_3 </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_ACCOAC" name="forward constant of reaction ACCOAC" value="1" units="per_mole_pow_2_per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_cys__L_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="cys__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_cys__L_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_cys__L_c" name="Zeroth order forward constant of reaction R_EX_cys__L_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_acald_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="acald_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_acald_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_acald_c" name="Zeroth order forward constant of reaction R_EX_acald_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX__3c3hmp_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="_3c3hmp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX__3c3hmp_c </ci>
+              <ci> _3c3hmp_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX__3c3hmp_c" name="forward constant of reaction R_EX__3c3hmp_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_malcoa_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="malcoa_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX_malcoa_c </ci>
+              <ci> malcoa_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX_malcoa_c" name="forward constant of reaction R_EX_malcoa_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_lac__D_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="lac__D_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX_lac__D_c </ci>
+              <ci> lac__D_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX_lac__D_c" name="forward constant of reaction R_EX_lac__D_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_pep_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="pep_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX_pep_c </ci>
+              <ci> pep_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX_pep_c" name="forward constant of reaction R_EX_pep_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_pro__L_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="pro__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_pro__L_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_pro__L_c" name="Zeroth order forward constant of reaction R_EX_pro__L_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_gln__L_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_gln__L_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_gln__L_c" name="Zeroth order forward constant of reaction R_EX_gln__L_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_chor_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="chor_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_chor_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_chor_c" name="Zeroth order forward constant of reaction R_EX_chor_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_hmbil_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="hmbil_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_hmbil_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_hmbil_c" name="Zeroth order forward constant of reaction R_EX_hmbil_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_cpppg3_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="cpppg3_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX_cpppg3_c </ci>
+              <ci> cpppg3_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX_cpppg3_c" name="forward constant of reaction R_EX_cpppg3_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_dscl_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="dscl_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX_dscl_c </ci>
+              <ci> dscl_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX_dscl_c" name="forward constant of reaction R_EX_dscl_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_amob_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="amob_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_amob_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_amob_c" name="Zeroth order forward constant of reaction R_EX_amob_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_met__L_c" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="met__L_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw sboTerm="SBO:0000049">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> kf_R_EX_met__L_c </ci>
+              <ci> met__L_c </ci>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000153" id="kf_R_EX_met__L_c" name="forward constant of reaction R_EX_met__L_c" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_EX_hcys__L_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="hcys__L_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000041">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> zkf_R_EX_hcys__L_c </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter sboTerm="SBO:0000048" id="zkf_R_EX_hcys__L_c" name="Zeroth order forward constant of reaction R_EX_hcys__L_c" value="1" units="per_second_times_mole"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
