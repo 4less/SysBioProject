@@ -5950,8 +5950,8 @@
         </apply>
       </math>
       <listOfLocalParameters>
-        <localParameter sboTerm="SBO:0000153" id="kf_R_ICDHyr" name="forward constant of reaction R_ICDHyr" value="1" units="per_mole_per_second"/>
-        <localParameter sboTerm="SBO:0000156" id="kr_R_ICDHyr" name="reverse constant of reaction R_ICDHyr" value="1" units="per_mole_pow_2_per_second"/>
+        <localParameter sboTerm="SBO:0000153" id="kf_R_ICDHyr" name="forward constant of reaction R_ICDHyr" value="0" units="per_mole_per_second"/>
+        <localParameter sboTerm="SBO:0000156" id="kr_R_ICDHyr" name="reverse constant of reaction R_ICDHyr" value="0" units="per_mole_pow_2_per_second"/>
       </listOfLocalParameters>
     </kineticLaw>
     <fbc:geneProductAssociation>
@@ -6101,8 +6101,8 @@
         </apply>
       </math>
       <listOfLocalParameters>
-        <localParameter sboTerm="SBO:0000153" id="kf_R_MDH" name="forward constant of reaction R_MDH" value="1" units="per_mole_per_second"/>
-        <localParameter sboTerm="SBO:0000156" id="kr_R_MDH" name="reverse constant of reaction R_MDH" value="1" units="per_mole_per_second"/>
+        <localParameter sboTerm="SBO:0000153" id="kf_R_MDH" name="forward constant of reaction R_MDH" value="0" units="per_mole_per_second"/>
+        <localParameter sboTerm="SBO:0000156" id="kr_R_MDH" name="reverse constant of reaction R_MDH" value="0" units="per_mole_per_second"/>
       </listOfLocalParameters>
     </kineticLaw>
   </reaction>
@@ -6138,7 +6138,7 @@
         </apply>
       </math>
       <listOfLocalParameters>
-        <localParameter sboTerm="SBO:0000153" id="kf_R_MDH3" name="forward constant of reaction R_MDH3" value="1" units="per_mole_per_second"/>
+        <localParameter sboTerm="SBO:0000153" id="kf_R_MDH3" name="forward constant of reaction R_MDH3" value="0" units="per_mole_per_second"/>
       </listOfLocalParameters>
     </kineticLaw>
     <fbc:geneProductAssociation>
@@ -6211,7 +6211,7 @@
         </apply>
       </math>
       <listOfLocalParameters>
-        <localParameter sboTerm="SBO:0000153" id="kf_R_ME1" name="forward constant of reaction R_ME1" value="10" units="per_mole_per_second"/>
+        <localParameter sboTerm="SBO:0000153" id="kf_R_ME1" name="forward constant of reaction R_ME1" value="1" units="per_mole_per_second"/>
       </listOfLocalParameters>
     </kineticLaw>
     <fbc:geneProductAssociation>
