@@ -5700,8 +5700,8 @@
         </apply>
       </math>
       <listOfLocalParameters>
-        <localParameter sboTerm="SBO:0000153" id="kf_R_FUM" name="forward constant of reaction R_FUM" value="0" units="per_second"/>
-        <localParameter sboTerm="SBO:0000156" id="kr_R_FUM" name="reverse constant of reaction R_FUM" value="0" units="per_second"/>
+        <localParameter sboTerm="SBO:0000153" id="kf_R_FUM" name="forward constant of reaction R_FUM" value="1" units="per_second"/>
+        <localParameter sboTerm="SBO:0000156" id="kr_R_FUM" name="reverse constant of reaction R_FUM" value="1" units="per_second"/>
       </listOfLocalParameters>
     </kineticLaw>
     <fbc:geneProductAssociation>
